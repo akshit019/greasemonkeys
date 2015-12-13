@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Brandi HTML5 Bootstraped Business Template
 ========
 
@@ -20,3 +21,6 @@ Documentation File Included
 PSD credit: https://dribbble.com/themecurve
 
 A template By <a href="http://www.themefisher.com>Themefisher</a>
+=======
+# greasemonkeys
+>>>>>>> e7c04e03b499b92594979b6f70bbf3a876aff36a

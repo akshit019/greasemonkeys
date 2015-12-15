@@ -3,6 +3,73 @@
 /*	Basic Style 
 /* =================================== */
 
+
+/*Media queries
+=======================================*/
+  
+  /*for the smallest phones*/ 
+        @media (max-width:767px){
+
+
+
+        }
+
+  /*for the tablet phones*/ 
+        @media (min-width:768px){
+
+
+        }
+
+  /*for medium screens and desktops*/
+        @media (min-width:992px){
+
+
+        }
+
+  /*for large screens*/ 
+        @media (min-width:1200px){
+          
+          #logo-center{
+            margin-left: 34%;
+            margin-top: 5%;
+            width: 50px;
+          }     
+
+          #logo-center-size{
+            width: 350px;
+          }     
+
+          #car{
+            margin-left: 45.8%;
+            margin-top: -1%;
+            
+          }
+
+          #car-size{
+            width: 730px;
+          }
+
+          #tire{
+            margin-top: -11.8%;
+            margin-left: 58.2%;
+
+          }
+
+          #tire-size{
+            width: 152px;
+          }
+
+
+        }
+
+
+
+/*End Media queries
+=======================================*/
+
+
+
+
 body {
     background-color: #fff;
     font-family: 'Open Sans', sans-serif;
@@ -177,13 +244,20 @@ body > section,
   margin-top: 5%;
 }
 
+.carousel-indicators .not-active{
+  height: 30px;
+  width: 30px;
 
+}
 
-
-/*=========================================
+.carousel-indicators .active {
+  height: 50px;
+  width: 50px;
+}
+/*========================================
 	Slider
 ==========================================*/
-
+/*
 #slider {
 	padding: 0;
 }
@@ -271,7 +345,7 @@ top: -8px;
   width: 8px;
 }
 
-
+*/
 
 /*=========================================
 	About
@@ -365,8 +439,8 @@ top: -8px;
 }
 
 .work-item {
-    float: left;
-    width: 25%;
+    float: center;
+    width: 100%;
     position: relative;
 }
 
